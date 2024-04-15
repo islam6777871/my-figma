@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-one{
+    background-color: #232536;
+}
+.nav-one .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+.right-nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.btn button{
+    padding: 16px 38px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.link{
+    color: white;
+    font-weight: 500;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.hero{
+    background-color: lavender;
+}
+.hero .container h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.hero .container p{
+    color: gray;
+    width: 520px;
+    text-align: center;
+    line-height: 25px;
+}
+.hero .container h6{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form input{
+    margin-top: 50px;
+    width: 1400px;
+height: 76px;
+top: 485px;
+left: 79px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+border: 1px 0px 0px 0px solid gray;
+opacity: 0px;
+padding: 1px 20px;
+}
+
+
+
+.card{
+    display: flex;
+    gap: 30px;
+   margin-top: 50px;
+    margin-bottom: 40px;
+}
+.card_date{
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.info{
+    color: gray;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(30, 28, 28);
+}
+.card-h2{
+    display: flex;
+    color: rgb(48, 45, 45);
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #232536;
+}
+.soc{
+    padding: 30px ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inform{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.inform p{
+   color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

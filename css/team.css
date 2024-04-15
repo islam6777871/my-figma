@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-one{
+    background-color: #232536;
+}
+.nav-one .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+.right-nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.btn button{
+    padding: 16px 38px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.link{
+    color: white;
+    font-weight: 500;
+}
+.hero{
+    margin-top: 50px;
+    display: flex;
+    background-color: lavender;
+}
+
+.hero div{
+padding: 20px 80px;
+}
+.hero div h2{
+margin-bottom: 20px;
+}
+.hero div h1{
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+
+.hero div p{
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.cardss{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.cardss .left h2{
+   
+    color: #232536;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.cardss .left h3{
+    color: #232536;
+  width: 600px;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+
+}
+.cardss .left p{
+   color: gray;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+width: 600px;
+}
+
+.cardsss{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.cardsss .lefts h2{
+   
+    color: #232536;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.cardsss .lefts h3{
+    color: #232536;
+  width: 600px;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+
+}
+.cardsss .lefts p{
+   color: gray;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+width: 600px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 50px;
+    background-color: #232536;
+}
+.soc{
+    padding: 30px ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inform{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.inform p{
+   color: gray;
+}
+.sub-container p{
+    color: gray;
+}
